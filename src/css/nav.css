@@ -1,0 +1,88 @@
+/* .active {
+    background-color: #ffc909;
+    color: white;
+} */
+
+nav {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul .logo{
+    float: left;
+    margin-left:1rem;
+}
+
+nav ul .logo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'sebino';
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 1.1rem;
+    font-family: 'sebino';
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+nav ul li a:not(.active):hover {
+    background-color: #202521;
+    color: white;
+}
+
+nav .menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+nav .menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+nav .menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 0.2rem;
+}
+
+@font-face {
+    font-family: 'sebino';
+    src: url('../assets//fonts/sebino-medium.ttf');
+}
