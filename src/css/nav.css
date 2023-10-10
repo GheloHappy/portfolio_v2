@@ -1,9 +1,10 @@
-/* .active {
-    background-color: #ffc909;
-    color: white;
-} */
+.active {
+    /* background-color: #ffc909; */
+    color: #e43f5a;;
+}
 
 nav {
+    z-index: 1;
     position: absolute;
     width: 100%;
     top: 0;
@@ -38,7 +39,7 @@ nav ul li a {
     font-size: 1.1rem;
     font-family: 'sebino';
     font-weight: 600;
-    margin-right: 2rem;
+    margin-right: 2.5rem;
 }
 
 nav ul li a:not(.active):hover {
@@ -81,6 +82,70 @@ nav .menu span {
     background-color: #fff;
     border-radius: 0.2rem;
 }
+
+@media (max-width: 800px) {
+    .open {
+        background-color: #000;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav .menu {
+        margin: .5rem 1rem 0 0;
+        display: flex;
+        position: absolute;
+    }
+
+    nav {
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+    }
+
+    .logo {
+        /* margin-top: 1rem;
+        text-align: left; */
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgb(19, 18, 18);
+    }
+    
+    nav ul.open {
+        display: flex;
+        height: 100vh;
+    }
+
+    nav ul li {
+        width: 100%;;
+    }
+
+    nav ul li a {
+        text-align: center;
+
+        font-size: 2.5rem;
+        margin-top: 6rem;
+        margin-left: 2rem;
+    }
+
+
+}
+
+
+@font-face {
+    font-family: 'Championship';
+    src: url('../assets//fonts/Championship.ttf');
+}
+
+@font-face {
+    font-family: 'NewAthletic';
+    src: url('../assets//fonts/NewAthletic.ttf');
+}
+
 
 @font-face {
     font-family: 'sebino';

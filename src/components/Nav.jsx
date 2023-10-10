@@ -19,14 +19,14 @@ const Nav = () => {
                 <div className='logo'>
                     <a href="/">GHELO</a>
                 </div>
-                <li >
+                <li className='f-link'>
                     <NavLink to="/">Home</NavLink>
+                </li>
+                <li >
+                    <NavLink to="/journey">Journey</NavLink>
                 </li>
                 <li>
                     <NavLink to="/projects">Projects</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/journey">Journey</NavLink>
                 </li>
                 <li>
                     <NavLink to="/contact">Contact</NavLink>
