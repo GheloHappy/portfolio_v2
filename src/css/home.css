@@ -1,7 +1,7 @@
 .home-page {
     width: 100%;
     display: inline-flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .left {
@@ -47,7 +47,25 @@
 .propic img {
     width: 50%;
     height: 100vh;
-    /* border-radius: 20% 60% 60% 3%; */
+    border-radius: 3% 0;
+}
+
+@media (max-width: 1366px) {
+
+    .welcome {
+        margin-top: 20rem;
+    }
+
+    .welcome h3 {
+        font-size: 1.3rem;
+        ;
+        margin: 1rem 0;
+    }
+
+    .welcome span {
+        font-size: 4rem;
+        ;
+    }
 }
 
 @media (max-width: 900px) {
