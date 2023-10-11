@@ -1,10 +1,24 @@
 import '../css/nav.css'
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useAnimation } from 'framer-motion';
 
 const Nav = () => {
-
     const [menuOpen, setMenuOpen] = useState(false);
+
+    const controls = useAnimation();
+
+    const handleScroll = () => {
+        controls.start({ opacity: 1 });
+    };
+
+    useEffect(() => {
+        controls.start({ opacity: 0 });
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [controls]);
 
     return (
         <nav>
@@ -20,10 +34,22 @@ const Nav = () => {
                     <a href="/">GHELO</a>
                 </div>
                 <li className='f-link'>
-                    <NavLink to="/">Home</NavLink>
+                    <NavLink
+                        to='home'
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >
+                        HOME
+                    </NavLink>
                 </li>
                 <li >
-                    <NavLink to="/journey">Journey</NavLink>
+                    <NavLink to="journey"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}>Journey</NavLink>
                 </li>
                 <li>
                     <NavLink to="/projects">Projects</NavLink>
