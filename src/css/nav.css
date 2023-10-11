@@ -16,7 +16,7 @@ nav ul {
 
 nav ul .logo{
     float: left;
-    margin-left:1rem;
+    margin-left:2rem;
 }
 
 nav ul .logo a{
@@ -83,7 +83,7 @@ nav .menu span {
     border-radius: 0.2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .open {
         background-color: #000;
         margin: 0;

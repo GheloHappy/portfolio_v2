@@ -1,4 +1,4 @@
-import propic from '../assets/img/propic_edited.png'
+import propic from '../assets/img/propic_glitched.png'
 import '../css/home.css'
 
 const Home = () => {
@@ -7,14 +7,16 @@ const Home = () => {
             <div className='left'>
                 <div className='welcome'>
                     <h3>Hi there! I'm</h3>
-                    <span>GHELONICO </span> 
+                    <span>GHELONICO </span>
                     <span className='last-name'>MALIGAYA</span>
                     <h3>Software Developer</h3>
                 </div>
             </div>
             <div className='right'>
-                {/* <img src={propic} alt='profile picture'/> */}
-                <h1>Right</h1>
+                <div className='propic'>
+                    <img src={propic} alt='profile picture' />
+
+                </div>
             </div>
         </div>
     )
