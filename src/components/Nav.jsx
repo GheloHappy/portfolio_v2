@@ -1,24 +1,16 @@
 import '../css/nav.css'
-import { NavLink } from "react-router-dom";
-import { useEffect, useState } from "react";
-import { useAnimation } from 'framer-motion';
+// import { NavLink } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
+import { useState } from "react";
+import { useLocation } from 'react-router-dom';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const location = useLocation();
 
-    const controls = useAnimation();
-
-    const handleScroll = () => {
-        controls.start({ opacity: 1 });
+    const handleLinkClick = () => {
+        setMenuOpen(false);
     };
-
-    useEffect(() => {
-        controls.start({ opacity: 0 });
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, [controls]);
 
     return (
         <nav>
@@ -34,31 +26,33 @@ const Nav = () => {
                     <a href="/">GHELO</a>
                 </div>
                 <li className='f-link'>
-                    <NavLink
-                        to='home'
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}
-                    >
-                        HOME
-                    </NavLink>
+                    <Link to='#home' smooth onClick={handleLinkClick}
+                    className={location.hash === "#home" ? "active" : ""}>
+                        Home
+                    </Link>
                 </li>
                 <li >
-                    <NavLink to="journey"
-                        spy={true}
-                        smooth={true}
-                        offset={-70}
-                        duration={500}>Journey</NavLink>
+                    <Link to='#about' smooth onClick={handleLinkClick}
+                     className={location.hash === "#about" ? "active" : ""}>
+                        About</Link>
+                </li>
+                <li >
+                    <Link to='#journey' smooth onClick={handleLinkClick}
+                     className={location.hash === "#journey" ? "active" : ""}>
+                        Journey</Link>
                 </li>
                 <li>
-                    <NavLink to="/projects">Projects</NavLink>
+                    <Link to="/#projects" onClick={handleLinkClick}
+                     className={location.hash === "#projects" ? "active" : ""}>
+                        Projects</Link>
                 </li>
                 <li>
-                    <NavLink to="/contact">Contact</NavLink>
+                    <Link to="/#contact" onClick={handleLinkClick}
+                     className={location.hash === "#contact" ? "active" : ""}>
+                        Contact</Link>
                 </li>
             </ul>
-        </nav>
+        </nav >
     )
 }
 

@@ -8,7 +8,7 @@ import {
 
 const Home = () => {
     return (
-        <div className="home-page">
+        <div className="home-page" id='home'>
             <div className='left'>
                 <motion.div className='welcome'
                     variants={fadeAnimationVariant}

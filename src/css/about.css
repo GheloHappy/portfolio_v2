@@ -1,0 +1,51 @@
+.about-page {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'sebino';
+}
+
+.abt-left {
+    width: 30%;
+}
+
+.abt-left-info{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.abt-right {
+    width: 70%;
+}
+
+.abt-right-info{
+    font-size: 1.2rem;
+    margin-top: 5rem;
+    width: 80%;
+}
+
+@media (max-width: 650px) {
+    .abt-info-layer {
+        /* flex-direction: column; */
+        display: block;
+    }
+    .abt-left-info{
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        text-align: left;
+    } 
+
+    .abt-right {
+        margin: 0;
+        width: 100%;
+    }
+
+    .abt-right-info{
+        font-size: 1rem;
+        margin-top: 2rem;
+        padding: 0 1rem;
+    } 
+}

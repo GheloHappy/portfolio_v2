@@ -126,12 +126,13 @@ nav .menu span {
 
     nav ul li a {
         text-align: center;
-
         font-size: 2.5rem;
-        margin-top: 6rem;
+        margin-top: 3.5rem;
         margin-left: 2rem;
     }
-
+    .f-link {
+        margin-top: 3rem;
+    }
 
 }
 
