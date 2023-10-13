@@ -5,6 +5,10 @@ body {
 
 html {
     background-color: #171717;
+    
+    /* background: rgb(228, 63, 90);
+    background: linear-gradient(90deg, rgb(99, 52, 59) 0%, 
+    rgba(23, 23, 23, 1) 52%, rgba(0, 0, 0, 1) 80%); */
     /* background-color: #000000; */
     /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     overflow: hidden; */

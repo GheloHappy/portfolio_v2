@@ -11,9 +11,14 @@ const calculateAge = (birthday) => {
 
 
 export const personalDetails = [
-    { label: 'name', value: 'Ghelonico Maligaya' },
-    { label: 'age', value: calculateAge('1998-05-07') },
-    { label: 'experience', value: calculateAge('1998-05-07') - 20 },
+    { label: 'Name', value: 'Ghelonico Maligaya' },
+    { label: 'Age', value: calculateAge('1998-05-07') },
+    { label: 'Gender', value: 'Male' },
+    { label: 'Total Experience', value: `${calculateAge('1998-05-07') - 20} years`},
+    { label: 'Current Occupation', value: 'Programmer (Feb, 2021)' },
+    { label: 'Company', value: 'Monheim Group of Companies' },
+    { label: 'School', value: 'STI Ortigas Cainta' },
+    { label: 'Course', value: '(BSIT) Bachelor of Science in Information Technology' },
 ];
 
 export const aboutIntro = [

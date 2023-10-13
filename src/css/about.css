@@ -1,10 +1,15 @@
 .about-page {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     color: #fff;
     display: flex;
     flex-direction: column;
     font-family: 'sebino';
+    padding-top: 2rem;
+}
+
+.abt-info-layer {
+    margin-top: 2rem;
 }
 
 .abt-left {
@@ -12,7 +17,6 @@
 }
 
 .abt-left-info{
-    margin-top: 5rem;
     text-align: center;
 }
 
@@ -22,14 +26,46 @@
 
 .abt-right-info{
     font-size: 1.2rem;
-    margin-top: 5rem;
     width: 80%;
+}
+
+.abt-right-info-summary{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    flex-direction: row;
+}
+
+.abt-right-info-summary-label{
+    padding-left: 1rem;
+    width: 30%;
+}
+
+.abt-right-info-summary-value{
+    padding-left: 2rem;
+    width: 50%;
+}
+
+.abt-info-layer-techs {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+.abt-info-layer-techs-div {
+    width: 50%;
+    background-color: rgb(53, 43, 43);
 }
 
 @media (max-width: 650px) {
     .abt-info-layer {
         /* flex-direction: column; */
         display: block;
+        margin:0;
+    }
+
+    .abt-left {
+        width: 100%;
     }
     .abt-left-info{
         margin: 0;
@@ -48,4 +84,12 @@
         margin-top: 2rem;
         padding: 0 1rem;
     } 
+
+    .abt-info-layer-techs {
+        flex-direction: column;
+    }
+
+    .abt-info-layer-techs-div {
+        width: 100%;
+    }
 }

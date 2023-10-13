@@ -1,12 +1,9 @@
 import '../css/nav.css'
-// import { NavLink } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
-import { useState } from "react";
-import { useLocation } from 'react-router-dom';
+import { useState} from "react";
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const location = useLocation();
 
     const handleLinkClick = () => {
         setMenuOpen(false);
@@ -26,29 +23,27 @@ const Nav = () => {
                     <a href="/">GHELO</a>
                 </div>
                 <li className='f-link'>
-                    <Link to='#home' smooth onClick={handleLinkClick}
-                    className={location.hash === "#home" ? "active" : ""}>
+                    <Link to='#home' smooth onClick={handleLinkClick}>
+                    {/*className={location.hash === "#home" ? "active" : ""}> */}
                         Home
                     </Link>
                 </li>
                 <li >
-                    <Link to='#about' smooth onClick={handleLinkClick}
-                     className={location.hash === "#about" ? "active" : ""}>
+                    <Link to='#about' smooth onClick={handleLinkClick}>
                         About</Link>
                 </li>
                 <li >
                     <Link to='#journey' smooth onClick={handleLinkClick}
-                     className={location.hash === "#journey" ? "active" : ""}>
+                        >
                         Journey</Link>
                 </li>
                 <li>
                     <Link to="/#projects" onClick={handleLinkClick}
-                     className={location.hash === "#projects" ? "active" : ""}>
+                        >
                         Projects</Link>
                 </li>
                 <li>
-                    <Link to="/#contact" onClick={handleLinkClick}
-                     className={location.hash === "#contact" ? "active" : ""}>
+                    <Link to="/#contact" onClick={handleLinkClick}>
                         Contact</Link>
                 </li>
             </ul>
