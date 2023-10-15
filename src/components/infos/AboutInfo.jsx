@@ -8,8 +8,6 @@ const calculateAge = (birthday) => {
     return age;
 };
 
-
-
 export const personalDetails = [
     { label: 'Name', value: 'Ghelonico Maligaya' },
     { label: 'Age', value: calculateAge('1998-05-07') },
@@ -29,4 +27,16 @@ export const aboutIntro = [
         value: `With nearly ${calculateAge('1998-05-07') - 20} years of experience, I have honed my programming skills, specializing in the development of web,
         mobile, and desktop applications. My expertise extends to navigating agile software development processes and workflows.`
     }
+]
+
+import css from '../../assets/img/logo/css.png'
+import html from '../../assets/img/logo/html.png'
+import js from '../../assets/img/logo/js.png'
+import node from '../../assets/img/logo/node.png'
+
+export const Icons = [
+    { label: 'css', value: css},
+    { label: 'html', value: html},
+    { label: 'js', value: js},
+    { label: 'node', value: node},
 ]

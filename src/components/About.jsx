@@ -2,7 +2,9 @@ import '../css/about.css';
 import { useInView } from 'framer-motion';
 import { useRef } from "react";
 import {
-    aboutIntro, personalDetails
+    aboutIntro,
+    personalDetails,
+    Icons,
 } from './infos/AboutInfo';
 import { slideAnim } from './animations/Animations';
 
@@ -59,7 +61,30 @@ const About = () => {
             <div className='abt-info-layer-techs'>
                 <div className='abt-info-layer-techs-div'>
                     <h1>test1</h1>
-                    <h1>test1</h1>
+                    <div className='abt-info-layer-techs-div-left'>
+                        {Icons.map((icon, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons'>
+                                <img src={icon.value} />
+                            </div>
+                        ))}
+                        {Icons.map((icon, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons'>
+                                <img src={icon.value} />
+                            </div>
+                        ))}
+                    </div>
+                    <div className='abt-info-layer-techs-div-left'>
+                        {Icons.map((icon, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons'>
+                                <img src={icon.value} />
+                            </div>
+                        ))}
+                        {Icons.map((icon, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons'>
+                                <img src={icon.value} />
+                            </div>
+                        ))}
+                    </div>
                 </div>
                 <div className='abt-info-layer-techs-div'>
                     <h1>test2</h1>

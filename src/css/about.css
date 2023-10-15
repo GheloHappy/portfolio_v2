@@ -54,7 +54,17 @@
 }
 .abt-info-layer-techs-div {
     width: 50%;
-    background-color: rgb(53, 43, 43);
+    background-color: rgb(14, 13, 13);
+}
+
+.abt-info-layer-techs-div-left {
+    display: flex;
+}
+
+.abt-info-layer-tech-icons img {
+    height: 4rem;
+    width: 4rem;
+    margin-left: 1rem;
 }
 
 @media (max-width: 650px) {
