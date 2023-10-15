@@ -1,45 +1,20 @@
-# FROM node:19.6-alpine
-
-# WORKDIR /usr/src/portfolio
-
-# ENV NODE_ENV production
-
-# COPY package*.json ./
-
-# RUN chown -R node:node /usr/src/portfolio
-
-# RUN npm ci --only=production && npm install serve -g
-
-# USER node
-
-# COPY --chown=node:node . .
-
-# EXPOSE 5001
-
-# USER root
-
-# RUN npm install vite
-
-# USER node
-
-# RUN vite build
-
-# CMD serve -s dist
-
 # Use a lighter Node.js image as a base
 FROM node:19.6-alpine AS build
 
 # Set the working directory
-WORKDIR /usr/src/portfolio
+WORKDIR /usr/src/app
 
 # Copy only package.json and package-lock.json to leverage Docker caching
 COPY package*.json ./
 COPY vite.config.js ./
 
 # Install dependencies and Vite globally
-#RUN npm ci --only=production
+#RUN npm ci --only=production 
+#RUN npm install
 
-RUN npm install
+RUN --mount=type=cache,target=/usr/src/app/.npm \
+    npm set cache /usr/src/app/.npm && \
+    npm ci
 
 #RUN chown -R node:node /usr/src/portfolio
 
@@ -48,7 +23,6 @@ COPY . .
 
 # Build the application
 RUN npm run build
-
 
 # Final stage to create a smaller image
 FROM node:19.6-alpine
@@ -62,7 +36,7 @@ RUN npm install -g serve
 # Copy the built application from the build stage
 USER node
 
-COPY --chown=node:node --from=build /usr/src/portfolio/dist ./dist
+COPY --chown=node:node --from=build /usr/src/app/dist ./dist
 
 # Expose the port your application is running on
 EXPOSE 5001
