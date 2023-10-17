@@ -4,7 +4,10 @@ import { useRef } from "react";
 import {
     aboutIntro,
     personalDetails,
-    Icons,
+    Languages,
+    Frameworks,
+    Databases,
+    Ide,
 } from './infos/AboutInfo';
 import { slideAnim } from './animations/Animations';
 
@@ -60,35 +63,45 @@ const About = () => {
 
             <div className='abt-info-layer-techs'>
                 <div className='abt-info-layer-techs-div'>
-                    <h1>test1</h1>
+                    <h3>Languages</h3>
                     <div className='abt-info-layer-techs-div-left'>
-                        {Icons.map((icon, index) => (
-                            <div key={index} className='abt-info-layer-tech-icons'>
-                                <img src={icon.value} />
-                            </div>
-                        ))}
-                        {Icons.map((icon, index) => (
-                            <div key={index} className='abt-info-layer-tech-icons'>
-                                <img src={icon.value} />
+                        {Languages.map((lang, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons' >
+                                <span style={slideAnim(isInView, 10)}>{lang.label}</span>
+                                <img style={slideAnim(isInView, 7)} src={lang.value} />
                             </div>
                         ))}
                     </div>
+
+                    <h3>Frameworks</h3>
                     <div className='abt-info-layer-techs-div-left'>
-                        {Icons.map((icon, index) => (
-                            <div key={index} className='abt-info-layer-tech-icons'>
-                                <img src={icon.value} />
-                            </div>
-                        ))}
-                        {Icons.map((icon, index) => (
-                            <div key={index} className='abt-info-layer-tech-icons'>
-                                <img src={icon.value} />
+                        {Frameworks.map((frame, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons' style={slideAnim(isInView, 6)}>
+                                <span style={slideAnim(isInView, 12)}>{frame.label}</span>
+                                <img style={slideAnim(isInView, 9)} src={frame.value}  />
                             </div>
                         ))}
                     </div>
                 </div>
                 <div className='abt-info-layer-techs-div'>
-                    <h1>test2</h1>
-                    <h1>test2</h1>
+                    <h3>Databases</h3>
+                    <div className='abt-info-layer-techs-div-right'>
+                        {Databases.map((data, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons'>
+                                <span style={slideAnim(isInView, 14)}>{data.label}</span>
+                                <img style={slideAnim(isInView, 11)} src={data.value} />
+                            </div>
+                        ))}
+                    </div>
+                    <h3>IDE's & OS</h3>
+                    <div className='abt-info-layer-techs-div-right'>
+                        {Ide.map((ide, index) => (
+                            <div key={index} className='abt-info-layer-tech-icons'>
+                                <span style={slideAnim(isInView, 16)}>{ide.label}</span>
+                                <img style={slideAnim(isInView, 13)} src={ide.value} />
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </div>
         </div>

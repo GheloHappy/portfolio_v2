@@ -5,7 +5,6 @@
     display: flex;
     flex-direction: column;
     font-family: 'sebino';
-    padding-top: 2rem;
 }
 
 .abt-info-layer {
@@ -16,7 +15,7 @@
     width: 30%;
 }
 
-.abt-left-info{
+.abt-left-info {
     text-align: center;
 }
 
@@ -24,82 +23,134 @@
     width: 70%;
 }
 
-.abt-right-info{
+.abt-right-info {
     font-size: 1.2rem;
     width: 80%;
 }
 
-.abt-right-info-summary{
+.abt-right-info-summary {
     width: 100%;
     display: flex;
     text-align: left;
     flex-direction: row;
 }
 
-.abt-right-info-summary-label{
+.abt-right-info-summary-label {
     padding-left: 1rem;
     width: 30%;
 }
 
-.abt-right-info-summary-value{
+.abt-right-info-summary-value {
     padding-left: 2rem;
     width: 50%;
 }
 
 .abt-info-layer-techs {
     width: 100%;
-    background-color: red;
+    flex-wrap: wrap;
     display: flex;
-    flex-direction: row;
+
 }
+
 .abt-info-layer-techs-div {
+    margin-top: 2rem;
     width: 50%;
-    background-color: rgb(14, 13, 13);
+}
+
+.abt-info-layer-techs-div span {
+    position: absolute;
+    background-color: rgb(10, 10, 10);
+    padding: .1rem;
+    border-radius: 50%;
+}
+
+
+.abt-info-layer-techs-div h3 {
+    margin-left: 1rem;
 }
 
 .abt-info-layer-techs-div-left {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+}
+
+.abt-info-layer-techs-div-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 5rem;
 }
 
 .abt-info-layer-tech-icons img {
-    height: 4rem;
-    width: 4rem;
-    margin-left: 1rem;
+    max-height: 4rem;
+    max-width: 4rem;
+}
+
+.abt-info-layer-tech-icons {
+    margin-left:2rem;
 }
 
 @media (max-width: 650px) {
     .abt-info-layer {
         /* flex-direction: column; */
         display: block;
-        margin:0;
+        margin: 0;
     }
 
     .abt-left {
         width: 100%;
     }
-    .abt-left-info{
+
+    .abt-left-info {
         margin: 0;
         padding: 0;
         padding-left: 1rem;
         text-align: left;
-    } 
+    }
 
     .abt-right {
         margin: 0;
         width: 100%;
     }
 
-    .abt-right-info{
+    .abt-right-info {
         font-size: 1rem;
         margin-top: 2rem;
         padding: 0 1rem;
-    } 
+    }
 
     .abt-info-layer-techs {
         flex-direction: column;
     }
 
     .abt-info-layer-techs-div {
+        margin-top: 2rem;
         width: 100%;
+    }
+
+    .abt-info-layer-tech-icons {
+        margin-right: 1rem;
+    }
+
+    .abt-info-layer-techs-div span {
+        font-size: .7rem;
+    }
+
+    .abt-info-layer-techs-div-left {
+        justify-content: center;
+        margin-left: 0; 
+    }
+
+    .abt-info-layer-techs-div-right {
+        justify-content: center;
+        margin-left: 0; 
+    }
+
+    .abt-info-layer-tech-icons img {
+        max-height: 3rem;
+        max-width: 3rem;
+        margin-left: 1rem;
     }
 }
