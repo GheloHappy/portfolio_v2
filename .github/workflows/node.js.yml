@@ -12,7 +12,7 @@ on:
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     strategy:
       matrix:
@@ -26,5 +26,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
+    - name: container remove --if-present
+      run: docker stop portfolio:0 && docker rm portfolio:0 || true
+    - name: Remove existing Docker image
+      run: docker rmi portfolio:0 || true
+    - name: Build Docker image
+      run: docker build -t portfolio:0 .
+    - name: Run Docker container
+      run: docker run --name portfolio -p 5001:5001 portfolio:0
