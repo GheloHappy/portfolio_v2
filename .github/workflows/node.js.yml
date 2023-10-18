@@ -32,5 +32,7 @@ jobs:
       run: docker rmi ghelowee/portfolio:0 || true
     - name: Build Docker image
       run: docker build -t ghelowee/portfolio:0 .
+    - name: Create Docker container
+      run: docker create --name portfolio -p 5001:5001 ghelowee/portfolio:0
     - name: Run Docker container
-      run: docker run --name portfolio -p 5001:5001 ghelowee/portfolio:0
+      run: docker start portfolio
