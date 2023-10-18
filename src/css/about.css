@@ -126,7 +126,7 @@
     }
 
     .abt-info-layer-techs-div {
-        margin-top: 2rem;
+        margin-top: 0;
         width: 100%;
     }
 
@@ -139,12 +139,14 @@
     }
 
     .abt-info-layer-techs-div-left {
-        justify-content: center;
+        justify-content: left;
+        margin-top: 1rem;
         margin-left: 0; 
     }
 
     .abt-info-layer-techs-div-right {
-        justify-content: center;
+        justify-content: left;
+        margin-top: 1rem;
         margin-left: 0; 
     }
 
