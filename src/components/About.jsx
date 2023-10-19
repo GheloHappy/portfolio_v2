@@ -63,7 +63,7 @@ const About = () => {
 
             <div className='abt-info-layer-techs'>
                 <div className='abt-info-layer-techs-div'>
-                    <h3>Languages</h3>
+                    <h3>- Languages</h3>
                     <div className='abt-info-layer-techs-div-left'>
                         {Languages.map((lang, index) => (
                             <div key={index} className='abt-info-layer-tech-icons' >
@@ -73,7 +73,7 @@ const About = () => {
                         ))}
                     </div>
 
-                    <h3>Frameworks</h3>
+                    <h3>- Frameworks</h3>
                     <div className='abt-info-layer-techs-div-left'>
                         {Frameworks.map((frame, index) => (
                             <div key={index} className='abt-info-layer-tech-icons' style={slideAnim(isInView, 6)}>
@@ -84,7 +84,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className='abt-info-layer-techs-div'>
-                    <h3>Databases</h3>
+                    <h3>- Databases</h3>
                     <div className='abt-info-layer-techs-div-right'>
                         {Databases.map((data, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
@@ -93,7 +93,7 @@ const About = () => {
                             </div>
                         ))}
                     </div>
-                    <h3>Others</h3>
+                    <h3>- Others</h3>
                     <div className='abt-info-layer-techs-div-right'>
                         {Ide.map((ide, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
