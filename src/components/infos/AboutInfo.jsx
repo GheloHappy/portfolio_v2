@@ -79,6 +79,8 @@ export const Databases = [
     { label: 'mongo db', value: mongodb},
 ]
 
+import nginx from '../../assets/img/ide/nginx.png'
+import cloudflare from '../../assets/img/ide/cloudflare.png'
 import androidstudio from '../../assets/img/ide/androidstudio.png'
 import vs from '../../assets/img/ide/vs.png'
 import vscode from '../../assets/img/ide/vscode.png'
@@ -89,6 +91,8 @@ import proxmox from '../../assets/img/ide/proxmox.png'
 import windows from '../../assets/img/ide/windows.png'
 
 export const Ide = [
+    { label: 'nginx', value: nginx},
+    { label: 'cloudflare', value: cloudflare},
     { label: 'android', value: androidstudio},
     { label: 'vscode', value: vscode},
     { label: 'eclipse', value: eclipse},

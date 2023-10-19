@@ -93,7 +93,7 @@ const About = () => {
                             </div>
                         ))}
                     </div>
-                    <h3>IDE's & OS</h3>
+                    <h3>Others</h3>
                     <div className='abt-info-layer-techs-div-right'>
                         {Ide.map((ide, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
