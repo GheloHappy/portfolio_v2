@@ -18,10 +18,9 @@ const Journey = () => {
                     <div className='journey-right-inner-details'>
                         <span className='dot'></span>
                         <div className='journey-right-inner-details-texts'>
-                            <p>test</p>
-                            <p>test</p>
-                            <p>test</p>
-                            <p>test</p>
+                            <h1>
+
+                            </h1>
                         </div>
                         <span className='dot'></span>
                         <div className='journey-right-inner-details-texts'>
