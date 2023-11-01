@@ -1,25 +1,4 @@
-export const journeyTitles = [
-    {
-        title: "Programmer", 
-        date: "November 08, 2017 - March 16, 2019", 
-        company: "Monheim Group of Companies",
-        address: " San Isidro Taytay Rizal"
-    },
-    {
-        title: "System Analyst", 
-        date: "May 03, 2019 – January 31, 2022", 
-        company: `Rizal Public Utility Vehicle Transport Service & Multi-Purpose Cooperative (RPUVTSMPC)`,
-        address: " M. Santos Ext. Hinapao, Brgy. San Jose Antipolo City Rizal"
-    },
-    {
-        title: "Programmer", 
-        date: "February 14, 2022 – Present", 
-        company: "Monheim Group of Companies",
-        address: "San Isidro Taytay Rizal"
-    },
-]
-
-export const journey2017_2019 = [
+const journey2017_2019 = [
     {
         value: 'Absorbed after On the Job Training (OJT).'
     },
@@ -32,11 +11,11 @@ export const journey2017_2019 = [
         updates using Eclipse.`
     },
     {
-        value: `- Developed Timekeeping Maintenance using VB.NET.`
+        value: `Developed Timekeeping Maintenance using VB.NET.`
     },
 ]
 
-export const journey2019_2022 = [
+const journey2019_2022 = [
     {
         value: 'Managed Coop Database'
     },
@@ -51,7 +30,7 @@ export const journey2019_2022 = [
     },
 ]
 
-export const journey2022_present = [
+const journey2022_present = [
     {
         value: `Manage Company Databases and servers using MSSQL (Microsoft SQL SERVER) in
         Windows Server.`
@@ -88,3 +67,27 @@ export const journey2022_present = [
         for database.`
     },
 ]
+
+export const journeyTitles = [
+    {
+        title: "Programmer", 
+        date: "November 08, 2017 - March 16, 2019", 
+        company: "Monheim Group of Companies",
+        address: " San Isidro Taytay Rizal",
+        details: journey2017_2019
+    },
+    {
+        title: "System Analyst", 
+        date: "May 03, 2019 – January 31, 2022", 
+        company: `Rizal Public Utility Vehicle Transport Service & Multi-Purpose Cooperative (RPUVTSMPC)`,
+        address: " M. Santos Ext. Hinapao, Brgy. San Jose Antipolo City Rizal",
+        details: journey2019_2022
+    },
+    {
+        title: "Programmer", 
+        date: "February 14, 2022 – Present", 
+        company: "Monheim Group of Companies",
+        address: "San Isidro Taytay Rizal",
+        details: journey2022_present
+    },
+]   

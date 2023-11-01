@@ -5,6 +5,7 @@
     display: flex;
     font-family: 'sebino';
     margin-top: 3rem;
+    padding-top: 3rem;
     /* border-style: dashed none none none;
     border-color: #fff; */
 }
@@ -31,9 +32,13 @@
 }
 
 .journey-right-inner-details  {
-    background-color: red;
+    /* background-color: red; */
     align-items: center; /* Center items vertically */
     position: relative;
+}
+
+.journey-right-inner-detail {
+    padding-bottom: 2rem;
 }
 
 .dot{
@@ -47,8 +52,13 @@
     left: -15px;
 }
 
-.journey-right-inner-details-texts {
+.journey-right-inner-detail-texts {
     padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.journey-right-inner-detail-texts p {
+    padding-top: 2rem;
 }
 
 
