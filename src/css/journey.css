@@ -56,6 +56,7 @@
 .journey-right-inner-detail-texts {
     padding-left: 4rem;
     padding-right: 4rem;
+    font-size: 1.2rem;
 }
 
 .journey-right-inner-detail-texts p {
@@ -77,9 +78,6 @@
         color: white;
     }
 
-    .dot {
-        left: -12px;
-    }
     .journey-right-inner {
         margin: 1rem 0 1rem 1rem;
     }
@@ -90,9 +88,14 @@
     .journey-right-inner-detail-texts {
         padding-left: 2rem;
         padding-right: 2rem;
+        font-size: 1rem;
+    }
+    .journey-right-inner-detail-texts h3 {
+        font-size: 1.5rem;
     }
 
     .journey-right-inner-detail-texts h4, h5 {
+        font-size: 1.2rem;
         padding: 0;
         margin: .4rem 0 0 0;
     }

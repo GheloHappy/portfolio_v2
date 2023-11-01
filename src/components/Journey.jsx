@@ -14,7 +14,7 @@ const Journey = () => {
         <div className="journey-page" id='journey'>
             <div className='journey-left'>
                 <h2 ref={ref}
-                    style={slideAnim(isInView, 3)} >My Journey</h2>
+                    style={slideAnim(isInView, 1)} >My Journey</h2>
             </div>
             <div className='journey-right'>
                 <div className='journey-right-inner'>
