@@ -1,6 +1,6 @@
 .journey-page {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     color: #fff;
     display: flex;
     font-family: 'sebino';
@@ -27,7 +27,7 @@
 
 
 .journey-right-inner {
-    margin: 2rem;
+    margin: 2rem 0 2rem 2rem;
     border-style:  none none none solid;
 }
 
@@ -47,9 +47,10 @@
     background-color: #ffffff;
     border-radius: 50%;
     border-style: solid;
-    border-color: #0e0d0d;
+    border-color: #fff;
     position: absolute;
     left: -15px;
+    background-color: red;
 }
 
 .journey-right-inner-detail-texts {
@@ -61,4 +62,42 @@
     padding-top: 2rem;
 }
 
+@media (max-width: 650px) {
+    .journey-page {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    } 
+    .journey-left {
+        width: 50%;
+        text-align: left;
+        margin-left: 1rem;
+        margin-top: 4rem;
+        font-size: 1rem;
+        color: white;
+    }
 
+    .dot {
+        left: -12px;
+    }
+    .journey-right-inner {
+        margin: 1rem 0 1rem 1rem;
+    }
+    .journey-right {
+        width: 100%; 
+    }
+
+    .journey-right-inner-detail-texts {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .journey-right-inner-detail-texts h4, h5 {
+        padding: 0;
+        margin: .4rem 0 0 0;
+    }
+    
+    .journey-right-inner-detail-texts p {
+        padding-top: 1rem;
+    }
+}

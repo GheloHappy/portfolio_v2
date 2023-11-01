@@ -38,12 +38,12 @@ const Nav = () => {
                         Journey</Link>
                 </li>
                 <li>
-                    <Link to="/#projects" onClick={handleLinkClick}
+                    <Link to="/#projects" smooth onClick={handleLinkClick}
                         >
                         Projects</Link>
                 </li>
                 <li>
-                    <Link to="/#contact" onClick={handleLinkClick}>
+                    <Link to="/#contact" smooth onClick={handleLinkClick}>
                         Contact</Link>
                 </li>
             </ul>
