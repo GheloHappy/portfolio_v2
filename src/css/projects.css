@@ -6,3 +6,26 @@
     margin-top: 3rem;
     padding-top: 3rem;
 }
+
+.projects-page h1 {
+    margin-left: 15rem;
+}
+
+.prj-inner-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.prj-inner-left {
+    margin: 0 1rem;
+    text-align: center;
+    background-color: red;
+}
+
+.prj-inner-right {
+    margin: 0 1rem;
+    text-align: center;
+    background-color: blue;
+}
