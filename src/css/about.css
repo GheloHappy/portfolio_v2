@@ -17,6 +17,7 @@
 
 .abt-left-info {
     text-align: center;
+    color: #e43f5a;
 }
 
 .abt-right {
@@ -67,7 +68,8 @@
 
 
 .abt-info-layer-techs-div h3 {
-    margin-left: 1rem;
+    margin-left: 3rem;
+    color: #ec4e66;
 }
 
 .abt-info-layer-techs-div-left {
@@ -130,6 +132,10 @@
     .abt-info-layer-techs-div {
         margin-top: 0;
         width: 100%;
+    }
+
+    .abt-info-layer-techs-div h3 {
+        margin-left: 1rem;
     }
 
     .abt-info-layer-tech-icons {

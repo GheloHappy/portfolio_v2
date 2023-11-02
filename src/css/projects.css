@@ -8,7 +8,9 @@
 }
 
 .projects-page h1 {
-    margin-left: 15rem;
+    margin-left: 5rem;
+    font-size: 3rem;
+    color: #e43f5a;;
 }
 
 .prj-inner-grid {
@@ -18,14 +20,31 @@
     margin-top: 2rem;
 }
 
-.prj-inner-left {
-    margin: 0 1rem;
+.prj-inner-tiles {
+    margin: 0 1rem 5rem 1rem;
     text-align: center;
-    background-color: red;
 }
 
-.prj-inner-right {
-    margin: 0 1rem;
-    text-align: center;
-    background-color: blue;
+.prj-inner-tiles-img img{
+    width: 50rem;
+    height: 30rem;
+}
+
+.prj-inner-tiles-img span {
+    float: right;
+    position: absolute;
+}
+
+.prj-inner-tiles-details {
+    margin: 0 4rem;
+    text-align: left;
+}
+
+.prj-inner-tiles-details h2 {
+    color: #e43f5a;
+}
+
+.prj-inner-tiles-techs {
+    text-align: left;
+    margin: 0 4rem;
 }
