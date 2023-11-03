@@ -65,8 +65,12 @@
 }
 
 @media (max-width: 650px) {
+    .projects-page {
+        margin-top: 3rem;
+        padding-top: 0;
+    }
     .projects-page h1 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         text-align: left;
         margin-left: 1rem;
     }
