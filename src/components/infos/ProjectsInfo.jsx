@@ -12,7 +12,7 @@ export const projects_details = [
         label: "Barcode System",
         img: ImageLinks.barcode_system,
         summary: "This is a summary",
-        stacks: [ImageLinks.android, ImageLinks.java, ImageLinks.kotlin, ImageLinks.node, ImageLinks.vscode, ImageLinks.vs, ImageLinks.csharp, ImageLinks.sqlserver]
+        stacks: [ImageLinks.androidstudio, ImageLinks.java, ImageLinks.kotlin, ImageLinks.node, ImageLinks.vscode, ImageLinks.vs, ImageLinks.csharp, ImageLinks.sqlserver]
     },
     {
         label: "IT Monitoring",
