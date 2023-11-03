@@ -56,7 +56,7 @@ export const projects_details = [
         label: "Van Sales",
         img: van_sales,
         summary: "This is a summary",
-        stacks: [eclipse, java, sqlite]
+        stacks: [eclipse, java, sqlite, sql_server]
     },
     {
         label: "Warehouse Delivery Schedule System",
