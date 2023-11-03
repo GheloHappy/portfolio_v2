@@ -1,7 +1,7 @@
 const ImageLinks = {
     //Portfolio/languages
     css: 'https://ik.imagekit.io/ghelowee/Portfolio/languages/css.webp?updatedAt=1699030682439',
-    html: 'https://ik.imagekit.io/ghelowee/Portfolio/languages/html.webp?updatedAt=1699030681312',
+    html: 'https://ik.imagekit.io/ghelowee/Portfolio/languages/html.webp?updatedAt=1699034086094',
     js: 'https://ik.imagekit.io/ghelowee/Portfolio/languages/js.webp?updatedAt=1699030681725',
     java: 'https://ik.imagekit.io/ghelowee/Portfolio/languages/java.webp?updatedAt=1699030681591',
     csharp: 'https://ik.imagekit.io/ghelowee/Portfolio/languages/csharp.webp?updatedAt=1699030681573',
@@ -22,12 +22,12 @@ const ImageLinks = {
     mysql: 'https://ik.imagekit.io/ghelowee/Portfolio/databases/mysql.webp?updatedAt=1699030673142',
     mongodb: 'https://ik.imagekit.io/ghelowee/Portfolio/databases/mongodb.webp?updatedAt=1699030673112',
     //others
-    nginx: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/nginx.webp?updatedAt=1699030677517',
+    nginx: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/nginx.svg?updatedAt=1699034032751',
     cloudflare: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/cloudflare.webp?updatedAt=1699030677671',
     androidstudio: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/androidstudio.webp?updatedAt=1699030676071',
-    vs: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/vs.webp?updatedAt=1699030679829',
-    vscode: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/vscode.webp?updatedAt=1699030680566',
-    eclipse: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/eclipse.webp?updatedAt=1699030677662',
+    vs: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/vs_jCzFpe9RD?updatedAt=1699033681119',
+    vscode: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/vscode_v_5fPm1KN?updatedAt=1699033745049',
+    eclipse: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/eclipse2_popRzsEd1?updatedAt=1699033512488',
     docker: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/docker.webp?updatedAt=1699030676347',
     linux: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/linux.webp?updatedAt=1699030677366',
     proxmox: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/proxmox.webp?updatedAt=1699030677668',
