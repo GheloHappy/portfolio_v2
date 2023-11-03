@@ -28,7 +28,7 @@ const Home = () => {
             </div>
             <div className='right'>
                 <div className='propic' >
-                    <motion.img src='https://ik.imagekit.io/ghelowee/propic_glitched.webp?updatedAt=1699030672216' alt='profile picture' variants={fadeAnim(1)}
+                    <motion.img src='https://ik.imagekit.io/ghelowee/Portfolio/propic_glitched.webp?updatedAt=1699032604863' alt='profile picture' variants={fadeAnim(1)}
                         initial='initial'
                         animate='animate' />
                     <motion.div className='power' variants={fadeAnim(1.5)}
