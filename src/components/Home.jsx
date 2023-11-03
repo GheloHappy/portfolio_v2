@@ -1,5 +1,5 @@
-import propic from '../assets/img/propic_glitched.png';
-import reactjs from '../assets/img/frameworks/reactjs.png';
+import propic from '../assets/img/propic_glitched.webp';
+import reactjs from '../assets/img/frameworks/reactjs.webp';
 import '../css/home.css';
 import { motion } from 'framer-motion';
 import {

@@ -1,25 +1,25 @@
-import b2b_converter from '../../assets/img/projects/b2b_converter/main_form.png'
-import barcode_system from '../../assets/img/projects/barcode_system/tab_login.jpg'
-import it_monitoring from '../../assets/img/projects/it_monitoring/requests_page.png'
-import timekeeping from '../../assets/img/projects/timekeeping/timekeeping.png'
-import timekeeping_maintenance from '../../assets/img/projects/timekeeping_maintenance/reports.png'
-import van_sales from '../../assets/img/projects/van_sales/login.jpg'
-import warehouse_del_sched from '../../assets/img/projects/warehouse_del_sched_system/main_form.png'
+import b2b_converter from '../../assets/img/projects/b2b_converter/main_form.webp'
+import barcode_system from '../../assets/img/projects/barcode_system/tab_login.webp'
+import it_monitoring from '../../assets/img/projects/it_monitoring/requests_page.webp'
+import timekeeping from '../../assets/img/projects/timekeeping/timekeeping.webp'
+import timekeeping_maintenance from '../../assets/img/projects/timekeeping_maintenance/reports.webp'
+import van_sales from '../../assets/img/projects/van_sales/login.webp'
+import warehouse_del_sched from '../../assets/img/projects/warehouse_del_sched_system/main_form.webp'
 
-import vs from '../../assets/img/ide/vs.png'
-import vscode from '../../assets/img/ide/vscode.png'
-import android from '../../assets/img/ide/androidstudio.png'
-import eclipse from '../../assets/img/ide/eclipse.png'
+import vs from '../../assets/img/ide/vs.webp'
+import vscode from '../../assets/img/ide/vscode.webp'
+import android from '../../assets/img/ide/androidstudio.webp'
+import eclipse from '../../assets/img/ide/eclipse.webp'
 
-import react from '../../assets/img/frameworks/reactjs.png'
-import node from '../../assets/img/frameworks/node.png'
+import react from '../../assets/img/frameworks/reactjs.webp'
+import node from '../../assets/img/frameworks/node.webp'
 
-import csharp from '../../assets/img/languages/csharp.png'
-import kotlin from '../../assets/img/languages/kotlin.png'
-import java from '../../assets/img/languages/java.png'
+import csharp from '../../assets/img/languages/csharp.webp'
+import kotlin from '../../assets/img/languages/kotlin.webp'
+import java from '../../assets/img/languages/java.webp'
 
-import sql_server from '../../assets/img/databases/sqlserver.png'
-import sqlite from '../../assets/img/databases/sqlite.png'
+import sql_server from '../../assets/img/databases/sqlserver.webp'
+import sqlite from '../../assets/img/databases/sqlite.webp'
 
 export const projects_details = [
     {

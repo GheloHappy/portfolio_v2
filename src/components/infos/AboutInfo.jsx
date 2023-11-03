@@ -29,14 +29,14 @@ export const aboutIntro = [
     }
 ]
 
-import css from '../../assets/img/languages/css.png'
-import html from '../../assets/img/languages/html.png'
-import js from '../../assets/img/languages/js.png'
-import java from '../../assets/img/languages/java.png'
-import csharp from '../../assets/img/languages/csharp.png'
-import php from '../../assets/img/languages/php.png'
-import kotlin from '../../assets/img/languages/kotlin.png'
-import xml from '../../assets/img/languages/xml.png'
+import css from '../../assets/img/languages/css.webp'
+import html from '../../assets/img/languages/html.webp'
+import js from '../../assets/img/languages/js.webp'
+import java from '../../assets/img/languages/java.webp'
+import csharp from '../../assets/img/languages/csharp.webp'
+import php from '../../assets/img/languages/php.webp'
+import kotlin from '../../assets/img/languages/kotlin.webp'
+import xml from '../../assets/img/languages/xml.webp'
 
 export const Languages = [
     { label: 'css', value: css},
@@ -49,12 +49,12 @@ export const Languages = [
     { label: 'xml', value: xml},
 ]
 
-import node from '../../assets/img/frameworks/node.png'
-import reactjs from '../../assets/img/frameworks/reactjs.png'
-import tailwind from '../../assets/img/frameworks/tailwindcss.png'
-import laravel from '../../assets/img/frameworks/laravel.png'
-import netcore from '../../assets/img/frameworks/netcore.png'
-import asp from '../../assets/img/frameworks/asp.png'
+import node from '../../assets/img/frameworks/node.webp'
+import reactjs from '../../assets/img/frameworks/reactjs.webp'
+import tailwind from '../../assets/img/frameworks/tailwindcss.webp'
+import laravel from '../../assets/img/frameworks/laravel.webp'
+import netcore from '../../assets/img/frameworks/netcore.webp'
+import asp from '../../assets/img/frameworks/asp.webp'
 
 export const Frameworks = [
     { label: 'node', value: node},
@@ -65,11 +65,11 @@ export const Frameworks = [
     { label: 'asp .net', value: asp},
 ]
 
-import sqlserver from '../../assets/img/databases/sqlserver.png'
-import postgre from '../../assets/img/databases/postgre.png'
-import sqlite from '../../assets/img/databases/sqlite.png'
-import mysql from '../../assets/img/databases/mysql.png'
-import mongodb from '../../assets/img/databases/mongodb.png'
+import sqlserver from '../../assets/img/databases/sqlserver.webp'
+import postgre from '../../assets/img/databases/postgre.webp'
+import sqlite from '../../assets/img/databases/sqlite.webp'
+import mysql from '../../assets/img/databases/mysql.webp'
+import mongodb from '../../assets/img/databases/mongodb.webp'
 
 export const Databases = [
     { label: 'sql server', value: sqlserver},
@@ -79,16 +79,16 @@ export const Databases = [
     { label: 'mongo db', value: mongodb},
 ]
 
-import nginx from '../../assets/img/ide/nginx.png'
-import cloudflare from '../../assets/img/ide/cloudflare.png'
-import androidstudio from '../../assets/img/ide/androidstudio.png'
-import vs from '../../assets/img/ide/vs.png'
-import vscode from '../../assets/img/ide/vscode.png'
-import eclipse from '../../assets/img/ide/eclipse.png'
-import docker from '../../assets/img/ide/docker.png'
-import linux from '../../assets/img/ide/linux.png'
-import proxmox from '../../assets/img/ide/proxmox.png'
-import windows from '../../assets/img/ide/windows.png'
+import nginx from '../../assets/img/ide/nginx.webp'
+import cloudflare from '../../assets/img/ide/cloudflare.webp'
+import androidstudio from '../../assets/img/ide/androidstudio.webp'
+import vs from '../../assets/img/ide/vs.webp'
+import vscode from '../../assets/img/ide/vscode.webp'
+import eclipse from '../../assets/img/ide/eclipse.webp'
+import docker from '../../assets/img/ide/docker.webp'
+import linux from '../../assets/img/ide/linux.webp'
+import proxmox from '../../assets/img/ide/proxmox.webp'
+import windows from '../../assets/img/ide/windows.webp'
 
 export const Ide = [
     { label: 'nginx', value: nginx},
