@@ -1,11 +1,9 @@
-import propic from '../assets/img/propic_glitched.webp';
-import reactjs from '../assets/img/frameworks/reactjs.webp';
 import '../css/home.css';
 import { motion } from 'framer-motion';
 import {
     fadeAnim,
-    slideAnim
-} from './animations/Animations';
+    } from './animations/Animations';
+import ImageLinks from './links/ImageLinks';
 
 const Home = () => {
     return (
@@ -24,19 +22,20 @@ const Home = () => {
                     initial='initial'
                     animate='animate'>
                     <p>Powered by</p>
-                    <img src={reactjs} className='mobile-logo' alt='react Logo' />
+                    {/* <img src={reactjs} className='mobile-logo' alt='react Logo' /> */}
+                    <img src={ImageLinks.reactjs} className='mobile-logo' alt='react Logo' />
                 </motion.div>
             </div>
             <div className='right'>
                 <div className='propic' >
-                    <motion.img src={propic} alt='profile picture' variants={fadeAnim(1)}
+                    <motion.img src='https://ik.imagekit.io/ghelowee/propic_glitched.webp?updatedAt=1699030672216' alt='profile picture' variants={fadeAnim(1)}
                         initial='initial'
                         animate='animate' />
                     <motion.div className='power' variants={fadeAnim(1.5)}
                         initial='initial'
                         animate='animate'>
                         <p>Powered by</p>
-                        <img src={reactjs} alt='react Logo' />
+                        <img src={ImageLinks.reactjs}alt='react Logo' />
                     </motion.div>
                 </div>
             </div>

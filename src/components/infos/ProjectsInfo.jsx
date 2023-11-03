@@ -1,67 +1,47 @@
-import b2b_converter from '../../assets/img/projects/b2b_converter/main_form.webp'
-import barcode_system from '../../assets/img/projects/barcode_system/tab_login.webp'
-import it_monitoring from '../../assets/img/projects/it_monitoring/requests_page.webp'
-import timekeeping from '../../assets/img/projects/timekeeping/timekeeping.webp'
-import timekeeping_maintenance from '../../assets/img/projects/timekeeping_maintenance/reports.webp'
-import van_sales from '../../assets/img/projects/van_sales/login.webp'
-import warehouse_del_sched from '../../assets/img/projects/warehouse_del_sched_system/main_form.webp'
 
-import vs from '../../assets/img/ide/vs.webp'
-import vscode from '../../assets/img/ide/vscode.webp'
-import android from '../../assets/img/ide/androidstudio.webp'
-import eclipse from '../../assets/img/ide/eclipse.webp'
-
-import react from '../../assets/img/frameworks/reactjs.webp'
-import node from '../../assets/img/frameworks/node.webp'
-
-import csharp from '../../assets/img/languages/csharp.webp'
-import kotlin from '../../assets/img/languages/kotlin.webp'
-import java from '../../assets/img/languages/java.webp'
-
-import sql_server from '../../assets/img/databases/sqlserver.webp'
-import sqlite from '../../assets/img/databases/sqlite.webp'
+import ImageLinks from '../links/ImageLinks'
 
 export const projects_details = [
     {
         label: "B2B Converter",
-        img: b2b_converter,
+        img: ImageLinks.b2b_converter,
         summary: "This is a summary",
-        stacks: [vs, csharp, sql_server]
+        stacks: [ImageLinks.vs, ImageLinks.csharp, ImageLinks.sqlserver]
     },
     {
         label: "Barcode System",
-        img: barcode_system,
+        img: ImageLinks.barcode_system,
         summary: "This is a summary",
-        stacks: [android, java, kotlin, node, vscode, vs, csharp, sql_server]
+        stacks: [ImageLinks.android, ImageLinks.java, ImageLinks.kotlin, ImageLinks.node, ImageLinks.vscode, ImageLinks.vs, ImageLinks.csharp, ImageLinks.sqlserver]
     },
     {
         label: "IT Monitoring",
-        img: it_monitoring,
+        img: ImageLinks.it_monitoring,
         summary: "This is a summary",
-        stacks: [vscode, react, node, sqlite]
+        stacks: [ImageLinks.vscode, ImageLinks.reactjs, ImageLinks.node, ImageLinks.sqlite]
     },
     {
         label: "Timekeeping",
-        img: timekeeping,
+        img: ImageLinks.timekeeping,
         summary: "This is a summary",
-        stacks: [vs, csharp, sql_server]
+        stacks: [ImageLinks.vs, ImageLinks.csharp, ImageLinks.sqlserver]
     },
     {
         label: "Timekeeping Maintenance",
-        img: timekeeping_maintenance,
+        img: ImageLinks.timekeeping_maintenance,
         summary: "This is a summary",
-        stacks: [vs, csharp, sql_server]
+        stacks: [ImageLinks.vs, ImageLinks.csharp, ImageLinks.sqlserver]
     },
     {
         label: "Van Sales",
-        img: van_sales,
+        img: ImageLinks.van_sales,
         summary: "This is a summary",
-        stacks: [eclipse, java, sqlite, sql_server]
+        stacks: [ImageLinks.eclipse, ImageLinks.java, ImageLinks.sqlite, ImageLinks.sqlserver]
     },
     {
         label: "Warehouse Delivery Schedule System",
-        img: warehouse_del_sched,
+        img: ImageLinks.warehouse_del_sched,
         summary: "This is a summary",
-        stacks: [vs, csharp, sql_server]
+        stacks: [ImageLinks.vs, ImageLinks.csharp, ImageLinks.sqlserver]
     },
 ]
