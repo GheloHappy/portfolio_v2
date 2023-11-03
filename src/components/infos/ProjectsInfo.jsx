@@ -3,11 +3,13 @@ import barcode_system from '../../assets/img/projects/barcode_system/tab_login.j
 import it_monitoring from '../../assets/img/projects/it_monitoring/requests_page.png'
 import timekeeping from '../../assets/img/projects/timekeeping/timekeeping.png'
 import timekeeping_maintenance from '../../assets/img/projects/timekeeping_maintenance/reports.png'
+import van_sales from '../../assets/img/projects/van_sales/login.jpg'
 import warehouse_del_sched from '../../assets/img/projects/warehouse_del_sched_system/main_form.png'
 
 import vs from '../../assets/img/ide/vs.png'
 import vscode from '../../assets/img/ide/vscode.png'
 import android from '../../assets/img/ide/androidstudio.png'
+import eclipse from '../../assets/img/ide/eclipse.png'
 
 import react from '../../assets/img/frameworks/reactjs.png'
 import node from '../../assets/img/frameworks/node.png'
@@ -49,6 +51,12 @@ export const projects_details = [
         img: timekeeping_maintenance,
         summary: "This is a summary",
         stacks: [vs, csharp, sql_server]
+    },
+    {
+        label: "Van Sales",
+        img: van_sales,
+        summary: "This is a summary",
+        stacks: [eclipse, java, sqlite]
     },
     {
         label: "Warehouse Delivery Schedule System",
