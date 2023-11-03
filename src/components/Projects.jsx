@@ -17,7 +17,11 @@ const Projects = () => {
                         </div>
                         <div className='prj-inner-tiles-techs'>
                             <h3>Development Stack</h3>
-
+                            {value.stacks.map((stack, index) => (
+                                <div className='prj-inner-tiles-techs-stacks' key={index}>
+                                    <img src={stack} alt={index} />
+                                </div>
+                            ))}
                         </div>
                     </div>
                 ))}

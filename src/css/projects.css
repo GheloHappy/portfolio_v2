@@ -30,14 +30,9 @@
     height: 30rem;
 }
 
-.prj-inner-tiles-img span {
-    float: right;
-    position: absolute;
-}
-
 .prj-inner-tiles-details {
     margin: 0 4rem;
-    text-align: left;
+    text-align: center;
 }
 
 .prj-inner-tiles-details h2 {
@@ -45,6 +40,18 @@
 }
 
 .prj-inner-tiles-techs {
-    text-align: left;
+    text-align: center;
     margin: 0 4rem;
+}
+
+.prj-inner-tiles-techs-stacks{
+    display: inline-flex;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.prj-inner-tiles-techs-stacks img{
+    width: 4rem;
+    height: 4rem;
 }
