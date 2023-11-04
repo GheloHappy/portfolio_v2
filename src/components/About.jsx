@@ -68,7 +68,7 @@ const About = () => {
                         {Languages.map((lang, index) => (
                             <div key={index} className='abt-info-layer-tech-icons' >
                                 <span style={slideAnim(isInView, index )}>{lang.label}</span>
-                                <img style={slideAnim(isInView, index)} src={lang.value} alt={lang.index}/>
+                                <img style={slideAnim(isInView, index)} src={lang.value} alt={lang.label}/>
                             </div>
                         ))}
                     </div>
@@ -78,7 +78,7 @@ const About = () => {
                         {Frameworks.map((frame, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
                                 <span style={slideAnim(isInView, index )}>{frame.label}</span>
-                                <img style={slideAnim(isInView, index)} src={frame.value }  alt={frame.index} />
+                                <img style={slideAnim(isInView, index)} src={frame.value }  alt={frame.label} />
                             </div>
                         ))}
                     </div>
@@ -89,7 +89,7 @@ const About = () => {
                         {Databases.map((data, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
                                 <span style={slideAnim(isInView, index)}>{data.label}</span>
-                                <img style={slideAnim(isInView, index )} src={data.value} alt={data.index}/>
+                                <img style={slideAnim(isInView, index )} src={data.value} alt={data.label}/>
                             </div>
                         ))}
                     </div>
@@ -98,7 +98,7 @@ const About = () => {
                         {Ide.map((ide, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
                                 <span style={slideAnim(isInView, index )}>{ide.label}</span>
-                                <img style={slideAnim(isInView, index)} src={ide.value} alt={ide.index}/>
+                                <img style={slideAnim(isInView, index)} src={ide.value} alt={ide.label}/>
                             </div>
                         ))}
                     </div>
