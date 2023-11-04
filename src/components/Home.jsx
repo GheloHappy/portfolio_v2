@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <div className="home-page" id='home'>
             <div className='left'>
-                <motion.div className='welcome'
+                <div className='welcome'
                     variants={fadeAnim(0.5)}
                     initial='initial'
                     animate='animate'>
@@ -17,14 +17,14 @@ const Home = () => {
                     <span>GHELONICO </span>
                     <span className='last-name'>MALIGAYA</span>
                     <h3>Software Developer</h3>
-                </motion.div>
-                <motion.div className='power-mobile' variants={fadeAnim(1)}
+                </div>
+                <div className='power-mobile' variants={fadeAnim(1)}
                     initial='initial'
                     animate='animate'>
                     <p>Powered by</p>
                     {/* <img src={reactjs} className='mobile-logo' alt='react Logo' /> */}
                     <img src={ImageLinks.reactjs} className='mobile-logo' alt='react_Logo' />
-                </motion.div>
+                </div>
             </div>
             <div className='right'>
                 <div className='propic' >
