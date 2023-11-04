@@ -23,19 +23,19 @@ const Home = () => {
                     animate='animate'>
                     <p>Powered by</p>
                     {/* <img src={reactjs} className='mobile-logo' alt='react Logo' /> */}
-                    <img src={ImageLinks.reactjs} className='mobile-logo' alt='react Logo' />
+                    <img src={ImageLinks.reactjs} className='mobile-logo' alt='react_Logo' />
                 </motion.div>
             </div>
             <div className='right'>
                 <div className='propic' >
-                    <motion.img src='https://ik.imagekit.io/ghelowee/Portfolio/propic_glitched.webp?updatedAt=1699032604863' alt='profile picture' variants={fadeAnim(1)}
+                    <motion.img src='https://ik.imagekit.io/ghelowee/Portfolio/propic_glitched.webp?updatedAt=1699032604863' alt='profile_picture' variants={fadeAnim(1)}
                         initial='initial'
                         animate='animate' />
                     <motion.div className='power' variants={fadeAnim(1.5)}
                         initial='initial'
                         animate='animate'>
                         <p>Powered by</p>
-                        <img src={ImageLinks.reactjs}alt='react Logo' />
+                        <img src={ImageLinks.reactjs} alt='react Logo' />
                     </motion.div>
                 </div>
             </div>
