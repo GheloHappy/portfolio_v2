@@ -8,7 +8,7 @@ export const fadeAnim = (time) => ({
     y: 0,
     transition: {
       delay: time,
-      duration: 2,
+      duration: 1,
     }
   },
 });

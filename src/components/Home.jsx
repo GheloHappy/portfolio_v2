@@ -9,10 +9,7 @@ const Home = () => {
     return (
         <div className="home-page" id='home'>
             <div className='left'>
-                <div className='welcome'
-                    variants={fadeAnim(0.5)}
-                    initial='initial'
-                    animate='animate'>
+                <div className='welcome'>
                     <h3>Hi there! I'm</h3>
                     <span>GHELONICO </span>
                     <span className='last-name'>MALIGAYA</span>
