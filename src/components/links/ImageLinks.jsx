@@ -37,6 +37,7 @@ const ImageLinks = {
     b2b_converter: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/b2b_converter/main_form.webp?updatedAt=1699030684653',
     barcode_system: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/barcode_system/tab_login.webp?updatedAt=1699030685329',
     it_monitoring: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/it_monitoring/requests_page.webp?updatedAt=1699030685954',
+    os_web : 'https://ik.imagekit.io/ghelowee/Portfolio/projects/os_web/orders.webp?updatedAt=1699032564649',
     timekeeping: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/timekeeping/timekeeping.webp?updatedAt=1699030687822',
     timekeeping_maintenance: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/timekeeping_maintenance/reports.webp?updatedAt=1699030688985',
     van_sales: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/van_sales/login.webp?updatedAt=1699030689729',
