@@ -9,7 +9,7 @@ const Projects = () => {
                 {projects_details.map((value, index) => (
                     <div className='prj-inner-tiles' key={index}>
                         <div className='prj-inner-tiles-img'>
-                            <img src={value.img} alt={value.label} srcSet={`${value.img_mobile} 650w, ${value.img} 700w`}/>
+                            <img src={value.img} alt={value.label}/>
                         </div>
                         <div className='prj-inner-tiles-details'>
                             <h2>{value.label}</h2>
