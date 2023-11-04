@@ -35,13 +35,21 @@ const ImageLinks = {
 
     //Portfolio/projects
     b2b_converter: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/b2b_converter/main_form.webp?updatedAt=1699030684653',
+    b2b_converter_mobile: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/b2b_converter/main_form_mobile_fdwZLIfJaa?updatedAt=1699112333929',
     barcode_system: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/barcode_system/tab_login.webp?updatedAt=1699030685329',
+    barcode_system_mobile: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/barcode_system/tab_login_mobile_o39IKQ8ml?updatedAt=1699112446048',
     it_monitoring: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/it_monitoring/requests_page.webp?updatedAt=1699030685954',
+    it_monitoring_mobile: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/it_monitoring/requests_page.webp?updatedAt=1699030685954?tr=w-650',
     os_web : 'https://ik.imagekit.io/ghelowee/Portfolio/projects/os_web/orders.webp?updatedAt=1699032564649',
+    os_web_mobile : 'https://ik.imagekit.io/ghelowee/Portfolio/projects/os_web/orders.webp?updatedAt=1699032564649?tr=w-650',
     timekeeping: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/timekeeping/timekeeping.webp?updatedAt=1699030687822',
+    timekeeping_mobile: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/timekeeping/timekeeping.webp?updatedAt=1699030687822?tr=w-650',
     timekeeping_maintenance: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/timekeeping_maintenance/reports.webp?updatedAt=1699030688985',
+    timekeeping_maintenance_mobile: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/timekeeping_maintenance/reports.webp?updatedAt=1699030688985?tr=w-650',
     van_sales: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/van_sales/login.webp?updatedAt=1699030689729',
-    warehouse_del_sched: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/warehouse_del_sched_system/main_form.webp?updatedAt=1699030690739'
+    van_sales_mobile: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/van_sales/login.webp?updatedAt=1699030689729?tr=w-650',
+    warehouse_del_sched: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/warehouse_del_sched_system/main_form.webp?updatedAt=1699030690739',
+    warehouse_del_sched_mobile: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/warehouse_del_sched_system/main_form_mobile_dAbnax1cY?updatedAt=1699112165472'
 }
 
 export default ImageLinks;

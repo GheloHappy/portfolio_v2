@@ -12,3 +12,20 @@ html {
     overflow: hidden; */
     /* overflow: scroll ; */
   }
+
+
+@font-face {
+    font-family: 'NewAthletic';
+    src: url('https://ik.imagekit.io/ghelowee/Portfolio/fonts/NewAthletic.ttf?updatedAt=1699110960010');
+}
+
+
+@font-face {
+    font-family: 'sebino';
+    src: url('https://ik.imagekit.io/ghelowee/Portfolio/fonts/sebino-medium.ttf?updatedAt=1699110960582');
+}
+
+@font-face {
+    font-family: 'Championship';
+    src: url('https://ik.imagekit.io/ghelowee/Portfolio/fonts/Championship.ttf?updatedAt=1699110960539');
+}
