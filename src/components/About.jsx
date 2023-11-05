@@ -67,8 +67,8 @@ const About = () => {
                     <div className='abt-info-layer-techs-div-left'>
                         {Languages.map((lang, index) => (
                             <div key={index} className='abt-info-layer-tech-icons' >
-                                <span style={slideAnim(isInView, index * 3)}>{lang.label}</span>
-                                <img style={slideAnim(isInView, index * 3)} src={lang.value} alt={lang.label}/>
+                                <span style={slideAnim(isInView, index * 2)}>{lang.label}</span>
+                                <img style={slideAnim(isInView, index * 2)} src={lang.value} alt={lang.label}/>
                             </div>
                         ))}
                     </div>
@@ -77,8 +77,8 @@ const About = () => {
                     <div className='abt-info-layer-techs-div-left'>
                         {Frameworks.map((frame, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
-                                <span style={slideAnim(isInView, index * 3)}>{frame.label}</span>
-                                <img style={slideAnim(isInView, index * 3)} src={frame.value }  alt={frame.label} />
+                                <span style={slideAnim(isInView, index * 2)}>{frame.label}</span>
+                                <img style={slideAnim(isInView, index * 2)} src={frame.value }  alt={frame.label} />
                             </div>
                         ))}
                     </div>
@@ -88,8 +88,8 @@ const About = () => {
                     <div className='abt-info-layer-techs-div-right'>
                         {Databases.map((data, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
-                                <span style={slideAnim(isInView, index * 3)}>{data.label}</span>
-                                <img style={slideAnim(isInView, index * 3)} src={data.value} alt={data.label}/>
+                                <span style={slideAnim(isInView, index * 2)}>{data.label}</span>
+                                <img style={slideAnim(isInView, index * 2)} src={data.value} alt={data.label}/>
                             </div>
                         ))}
                     </div>
@@ -97,8 +97,8 @@ const About = () => {
                     <div className='abt-info-layer-techs-div-right'>
                         {Ide.map((ide, index) => (
                             <div key={index} className='abt-info-layer-tech-icons'>
-                                <span style={slideAnim(isInView, index * 3)}>{ide.label}</span>
-                                <img style={slideAnim(isInView, index * 3)} src={ide.value} alt={ide.label}/>
+                                <span style={slideAnim(isInView, index * 2)}>{ide.label}</span>
+                                <img style={slideAnim(isInView, index * 2)} src={ide.value} alt={ide.label}/>
                             </div>
                         ))}
                     </div>

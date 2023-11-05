@@ -1,6 +1,6 @@
 .projects-page {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     color: #fff;
     font-family: 'sebino';
     margin-top: 3rem;
@@ -12,14 +12,13 @@
     margin-left: 5rem;
     font-size: 3rem;
     color: #e43f5a;
-    ;
 }
 
 .prj-inner-grid {
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
 .prj-inner-tiles {
