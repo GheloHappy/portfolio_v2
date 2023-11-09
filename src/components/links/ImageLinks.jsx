@@ -32,6 +32,7 @@ const ImageLinks = {
     linux: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/linux.webp?updatedAt=1699030677366',
     proxmox: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/proxmox.webp?updatedAt=1699030677668',
     windows: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/windows.webp?updatedAt=1699030680490',
+    jenkins: 'https://ik.imagekit.io/ghelowee/Portfolio/ide/jenkins.png?updatedAt=1699516399511',
 
     //Portfolio/projects
     b2b_converter: 'https://ik.imagekit.io/ghelowee/Portfolio/projects/b2b_converter/main_form.webp?updatedAt=1699030684653',

@@ -70,4 +70,5 @@ export const Ide = [
     { label: 'proxmox', value: ImageLinks.proxmox},
     { label: 'windows', value: ImageLinks.windows},
     { label: 'visual studio', value: ImageLinks.vs},
+    { label: 'jenkins', value: ImageLinks.jenkins},
 ]
